@@ -1,6 +1,6 @@
 module.exports = {
-  title: '个人主页',
-  description: '姜帅杰的博客',
+  title: "turbo's 个人主页",
+  description: "turbo's 部落格",
   head: [
     ['link', {
       rel: 'icon',
@@ -12,33 +12,44 @@ module.exports = {
     }],
   ], 
   themeConfig: {
-    nav: [{
+    nav: [
+      {
         text: '主页',
         link: '/'
       },
       {
         text: '博文',
-        items: [{
-            text: 'Android',
+        items: 
+          [
+            {
+            text: 'React Native',
             link: '/android/'
           },
           {
-            text: 'ios',
+            text: '微信小程序',
             link: '/ios/'
           },
           {
-            text: 'Web',
+            text: 'webpack学习笔记',
             link: '/web/'
           }
         ]
       },
       {
-        text: '关于',
+        text: '前端杂记',
+        link: '/about/'
+      },
+      {
+        text: '关于我',
         link: '/about/'
       },
       {
         text: 'Github',
-        link: 'https://www.github.com/codeteenager'
+        link: 'https://github.com/Mjingling'
+      },
+      {
+        text: '我的简书',
+        link: 'https://www.jianshu.com/u/95c55933a2a0'
       },
     ],
     sidebar: {
