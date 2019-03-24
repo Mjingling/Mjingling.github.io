@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Mjingling/Mjingling.github.io/issues"
   },
-  "homepage": "https://github.com/Mjingling/Mjingling.github.io#readme"
+  "homepage": "https://github.com/Mjingling/Mjingling.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.10"
+  }
 }
