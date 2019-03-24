@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         text: '前端杂记',
-        link: '/about/'
+        link: '/js/'
       },
       {
         text: '关于我',
